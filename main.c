@@ -11,10 +11,10 @@ read_from_pipe (int file){
 
     FILE *stream;
     int c;
-    stream = fdopen (file, "r");
-    while ((c = fgetc (stream)) != EOF)
-        putchar (c);
-    fclose (stream);
+    stream = fdopen(file, "r");
+    while ((c = fgetc(stream)) != EOF)
+        putchar(c);
+    fclose(stream);
 }
 
 /* Write some random text to the pipe. */
@@ -34,6 +34,8 @@ int main (){
 
     pid_t pid;
     int mypipe[2];
+
+    printf("PID started with value: %d",pid);
     
     /* Create the pipe. */
     if (pipe(mypipe)){
