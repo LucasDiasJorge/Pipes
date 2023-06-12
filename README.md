@@ -6,7 +6,7 @@ Pipes are one of the most widely used IPC methods. As we can understand from its
 
 Since processes don't share the same address space, stack and registers, we need to use IPC method to make the processes cooperate, one of this methods is pipes.
 
-# main.c
+# Pipes and FIFOs (main.c)
 
 This project demonstrates interprocess communication using pipes in C. It creates a parent process and a child process, where the child process reads data from a pipe created by the parent process and echoes it to the stdout.
 
