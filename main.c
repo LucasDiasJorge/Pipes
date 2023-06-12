@@ -35,7 +35,7 @@ int main (){
     pid_t pid;
     int mypipe[2];
 
-    printf("PID started with value: %d",pid);
+    printf("PID started with value: %d\n",pid);
     
     /* Create the pipe. */
     if (pipe(mypipe)){
