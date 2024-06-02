@@ -62,3 +62,7 @@ For more details, you can refer to section 15 of "The GNU C Library Reference Ma
 Make sure to replace <repository_url> and <project_directory> with the actual URL and directory path of your project, respectively. Also, include any additional information or instructions specific to your project that you feel are necessary.
 
 I hope this helps! Let me know if you have any further questions.
+
+https://www.youtube.com/watch?v=uHH7nHkgZ4w
+
+https://www.youtube.com/watch?v=dhFkwGRSVGk
